@@ -1,32 +1,90 @@
 # DecodeLabs-Internship-Project2
 
-Classification Model Using Iris Dataset
+# Classification Model Using Iris Dataset
 
-A basic machine learning classification project using the Iris dataset. The project demonstrates data loading, train-test splitting, model training using a Decision Tree Classifier, prediction, and performance evaluation.
+## Project Overview
+
+This project demonstrates a basic machine learning classification model using the Iris dataset. The project covers the complete supervised learning workflow, including dataset loading, data exploration, train-test splitting, model training, prediction, and performance evaluation.
 
 ## Objective
 
-Build a basic classification model using a small dataset.
+The objective of this project is to build a classification model using a small dataset and understand the fundamentals of supervised machine learning.
 
-## Tools and Libraries
+## Technologies Used
 
 * Python
 * Pandas
 * Scikit-learn
+* Google Colab
+* GitHub
 
-## Steps Performed
+## Dataset Information
 
-1. Loaded the Iris dataset.
-2. Explored and understood the dataset.
-3. Split the data into training and testing sets.
-4. Trained a Decision Tree Classifier.
-5. Made predictions on the test data.
-6. Evaluated the model using accuracy and classification report.
+The project uses the Iris dataset available in the Scikit-learn library.
 
-## Result
+### Dataset Details
 
-The model achieved an accuracy score of 1.0 (100%) on the test dataset.
+* Total Samples: 150
+* Total Features: 4
+* Total Classes: 3
+
+### Features
+
+* Sepal Length (cm)
+* Sepal Width (cm)
+* Petal Length (cm)
+* Petal Width (cm)
+
+### Target Classes
+
+* Setosa
+* Versicolor
+* Virginica
+
+## Machine Learning Algorithm
+
+### Decision Tree Classifier
+
+A Decision Tree Classifier was used to train the classification model and predict flower species based on flower measurements.
+
+## Project Workflow
+
+1. Import Required Libraries
+2. Load and Understand the Dataset
+3. Create DataFrame
+4. Explore the Dataset
+5. Split Data into Training and Testing Sets
+6. Train the Decision Tree Model
+7. Make Predictions
+8. Evaluate the Model using:
+
+   * Accuracy Score
+   * Classification Report
+   * Confusion Matrix
+
+## Results
+
+The model achieved an accuracy score of **1.0 (100%)** on the test dataset.
+
+### Evaluation Metrics
+
+* Accuracy Score
+* Classification Report
+* Confusion Matrix
+
+## Project Structure
+
+Data-Classification-Using-AI/
+
+├── README.md
+
+├── Classification_Model.ipynb
+
+├── classification_model.py
+
+└── Project2_Documentation.docx
 
 ## Conclusion
 
-This project demonstrates the fundamentals of supervised machine learning, including data preparation, model training, prediction, and evaluation.
+This project successfully demonstrated the implementation of a classification model using the Iris dataset. The model was trained and evaluated using a Decision Tree Classifier and achieved excellent classification performance. The project strengthened understanding of supervised learning, data handling, model training, prediction, and evaluation.
+

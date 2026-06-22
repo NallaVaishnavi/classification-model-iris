@@ -1,5 +1,7 @@
 # DecodeLabs-Internship-Project2
+
 Classification Model Using Iris Dataset
+
 A basic machine learning classification project using the Iris dataset. The project demonstrates data loading, train-test splitting, model training using a Decision Tree Classifier, prediction, and performance evaluation.
 
 ## Objective
